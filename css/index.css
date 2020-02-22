@@ -1,0 +1,66 @@
+/*facebook and linkedin settings for box and click*/
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border: solid 0.1px black;
+}
+
+.fa-facebook:hover {
+    opacity: 0.8;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+ border: solid 0.1px black;
+}
+
+.fa-linkedin:hover {
+    opacity: 0.8;
+}
+/*Contact settings for hover and click*/
+.mailone { 
+    text-decoration: none;  
+}
+
+.mailone:hover {
+    opacity: 0.8;
+}
+
+.mapone {
+  text-decoration: none;     
+}
+
+.mapone:hover {
+    opacity: 0.8;
+}
+
+footer {
+      display: flex;
+      align-items: center;
+    }
+
+
+.flex {
+    
+    display:flex;
+    flex-flow: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+/*
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+     align-content: stretch;
+    width: 50%;
+        height: 50%;
+*/
+}
